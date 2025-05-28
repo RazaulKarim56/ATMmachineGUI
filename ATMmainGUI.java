@@ -51,7 +51,7 @@ public class ATMmainGUI {
 
     private static void lockAccount(JFrame frame) {
         isLocked = true;
-        JOptionPane.showMessageDialog(frame, "Too many failed attempts. Account locked for 30 seconds.");
+        JOptionPane.showMessageDialog(frame, "Too many failed attempts. Account locked for  10 minute.");
 
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
