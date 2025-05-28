@@ -99,7 +99,7 @@ public class ATMmachineGUI {
 
     private static void lockAccount(JFrame frame) {
         isLocked = true;
-        JOptionPane.showMessageDialog(frame, "Too many failed attempts. Account locked for 10 minite.");
+        JOptionPane.showMessageDialog(frame, "Too many failed attempts. Account locked for 10 minute.");
 
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
